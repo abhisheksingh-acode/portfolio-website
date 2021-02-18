@@ -1,6 +1,6 @@
 
    var i = 0;
-var imgArr = ["/image/cert-1014-6724654.jpg", "/image/cert-1023-6724654.jpg" ,"/image/F-cover.png", "/image/cert-1024-6724654.jpg", "/image/Screenshot (1).png", "/image/Screenshot (11).png"];
+var imgArr = ["image/cert-1014-6724654.jpg", "image/cert-1023-6724654.jpg" ,"image/F-cover.png", "image/cert-1024-6724654.jpg", "image/Screenshot (1).png", "image/Screenshot (11).png"];
 
  
   
@@ -35,7 +35,7 @@ function pre(){
    imgSrc.src = imgArr[i];
    j.innerHTML = `${i+1}/${imgArr.length}`
 }
-  imgArr.push("/image/Screenshot (14).png")
+  imgArr.push("image/Screenshot (14).png")
   
  
 
